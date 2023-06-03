@@ -1,0 +1,86 @@
+body{
+    background: #E5E5E5;
+}
+.sidebar {
+    background: #0B0B28;
+    flex: none;
+    width: 80px;
+    border-radius: 0px 4px 4px 0px;
+}
+.sidebar-logo{
+    width: 40px;
+    height: 40px;
+}
+.sidebar-logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.img-size{
+    width: 24px;
+    height: 24px;
+    margin-top: 60px;
+}
+
+.list_menu{
+    align-items: center;
+}
+
+.collapse-icon-img{
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    margin-top: 78px;
+}
+
+.menu-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-group{
+    width: 1108px !important;
+    border-radius: 4px;
+    background-color: white;
+    border: none !important;
+}
+.form-control{
+    border: none;
+}
+.content{
+    background-color: #F7F7FD;
+}
+.btn-blue {
+    background-color: #3030AD !important;
+    padding: 4px;
+    width: 48px;
+    height: 49px;
+    border-radius: 4px;
+  }
+.search{
+    background-color: #3030AD;
+    width: 24px;
+    height: 24px;
+}
+.dropdown-toggle{
+    padding-left: 16px;
+    width: 250px;
+    text-align: start;
+    background: white;
+    height: 49px;
+}
+
+.line-input{
+    height: 24px;
+}
+
+.arrow_down_png {
+    width: 15px;
+    float: right;
+    margin-right: 20.5px;
+    height: 7.5px;
+    margin-top: 10px;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}

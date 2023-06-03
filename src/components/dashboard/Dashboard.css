@@ -1,0 +1,118 @@
+.dashboard {
+    display: flex;
+    background-color: #F7F7FD;
+  }
+  
+  .sidebar {
+    padding: 20px;
+    padding-top: 16px !important;
+    position: sticky;
+    top: 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  .notification{
+    width: 22px;
+    height: 24px;
+  }
+
+  .avatar{
+    background-color: #3030AD;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 35px;
+    padding: 4px;
+  }
+  .top-section{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .flow-section{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .title-flows{
+    //styleName: H1 - Header 1;
+    font-family: Spline Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .question{
+    width: 24px;
+    height: 24px;
+  }
+  .help-section{
+    height: 56px;
+    width: 230px;
+    border-radius: 2px;
+    padding: 16px 24px 16px 24px;
+    font-family: Spline Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: 1px solid #3030AD;
+    border-radius: 2px;
+    color: #3030AD;
+    //styleName: BtnP - Button Paragraph;
+  }
+
+  .component-section{
+    padding: 24px;
+  }
+  .c-type{
+    width: 16px;
+    height: 16px;
+  }
+  .c-type-help{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-search-component{
+    color: #3030AD;
+  }
+  .component-search{
+    background-color: #F7F7FD !important; 
+  }
+  .c-title{
+    //styleName: SPM - Small Paragraph Medium;
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .h-49px{
+    height: 49px;
+  }
+  .info{
+    width: 120px;
+    height: 120px;
+  }
+  .info-span{
+    width: 472px;
+  }
+  .info-section{
+    padding-top: 125px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
