@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { FaSearch } from 'react-icons/fa';
 
 const ComponentSearch = () => {
@@ -12,6 +13,22 @@ const ComponentSearch = () => {
 
   const handleSearchChange = (event) => {
     setSearchValue(event.target.value);
+  };
+
+  const searchComponent = async () => {
+    try {
+      const response = await axios.get('https://686cea9b-340d-474c-acc9-6be06390f1d7.mock.pstmn.io', {
+        params: {
+          q: searchValue
+        }
+      });
+  
+      console.log('Response:', response.data);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+
+    // Rest of the code
   };
 
   const filteredOptions = options.filter((option) =>
@@ -33,6 +50,7 @@ const ComponentSearch = () => {
           type="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
+          onClick={searchComponent}
         >
           <FaSearch />
         </button>
